@@ -1,16 +1,15 @@
 import { useState } from "react";
 import "./App.css";
-import { Foretter } from "./Components/Retter/Forrett";
-import { Dessert } from "./Components/Retter/Dessert";
-import { Hovedrett } from "./Components/Retter/Hovedrett";
+import { Retter } from "./Components/Retter/RettKategori";
+import { meny } from "./Components/Meny/Meny";
 
 function App() {
   return (
     <>
       <h1>Meny </h1>
-      <Foretter />
-      <Hovedrett />
-      <Dessert />
+      <Retter kategori="Forrett" />
+      <Retter kategori="Hovedrett" />
+      <Retter kategori="Dessert" />
     </>
   );
 }
