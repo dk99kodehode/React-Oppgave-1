@@ -7,9 +7,23 @@ function App() {
   return (
     <>
       <h1>Meny </h1>
-      <Retter kategori="Forrett" />
-      <Retter kategori="Hovedrett" />
-      <Retter kategori="Dessert" />
+      <div className="retter">
+        <div>
+          <Retter kategori="Forrett" />
+        </div>
+
+        <div className="retter">
+          <div>
+            <Retter kategori="Hovedrett" />
+          </div>
+        </div>
+
+        <div className="retter">
+          <div>
+            <Retter kategori="Dessert" />
+          </div>
+        </div>
+      </div>
     </>
   );
 }

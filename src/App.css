@@ -17,6 +17,12 @@
   }
 }
 
+.retter {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
 .hero {
   position: relative;
 

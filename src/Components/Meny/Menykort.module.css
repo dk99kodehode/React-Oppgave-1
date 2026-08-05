@@ -2,31 +2,27 @@
 
 .tittel {
   color: rgb(0, 0, 0);
-  text-align: left;
-  padding-left: 2%;
 }
 
 .ingredienser {
-  color: rgb(73, 73, 73);
-  text-align: left;
-  padding-left: 4%;
+  color: rgb(133, 133, 133);
 }
 
 .pris {
-  color: rgb(255, 59, 16);
+  color: rgb(255, 43, 5);
 }
 
 .card {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding-top: 1%;
-  background-color: rgb(201, 200, 200);
-  border: black solid 1px;
-  border-radius: 10px;
-  gap: 40px;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: rgb(216, 216, 216);
+  border: solid rgb(82, 82, 82) 2px;
+  border-radius: 12px;
+  padding: 3px;
 }
 
-.card:hover {
-  text-decoration: underline 2px solid rgb(12, 4, 252);
-  cursor: pointer;
+.cardinnhold {
+  flex-direction: row;
+  text-align: left;
+  padding: 10px;
 }
